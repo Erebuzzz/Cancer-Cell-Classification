@@ -22,7 +22,7 @@ This project is an interactive dashboard for visualizing breast cancer classific
 ## Installation
 
 1. **Clone the repository**:
-   git clone https://github.com/your-username/Cancer-Cell-Classification.git
+   git clone https://github.com/Erebuzzz/Cancer-Cell-Classification.git
    cd Cancer-Cell-Classification
 
 2. **Create and activate a virtual environment**:
@@ -69,12 +69,12 @@ This project is an interactive dashboard for visualizing breast cancer classific
 
 ## Dashboard
 
-You can access the live dashboard at the following URL: (<[text](https://cancer-classification-dashboard.streamlit.app/)>)
+You can access the live dashboard at the following URL: (<[App](https://cancer-classification-dashboard.streamlit.app/)>)
 
 
 ## Contibutors
 
-Erebus(<[https://github.com/Erebuzzz]>)
+Erebus <https://github.com/Erebuzzz>
 
 
 ## Acknowledgements
