@@ -74,7 +74,7 @@ You can access the live dashboard at the following URL: [Cancer Cell Classificat
 
 ## Contibutors
 
-[Erebus]<https://github.com/Erebuzzz>
+[Erebus](https://github.com/Erebuzzz)
 
 
 ## Acknowledgements
