@@ -25,14 +25,14 @@ This project is an interactive dashboard for visualizing breast cancer classific
    git clone https://github.com/Erebuzzz/Cancer-Cell-Classification.git
    cd Cancer-Cell-Classification
 
-2. **Create and activate a virtual environment**:
+3. **Create and activate a virtual environment**:
     python -m venv venv
     venv\Scripts\activate  # On Windows
 
-3. **Install the required packages**:
+4. **Install the required packages**:
     pip install -r requirements.txt
 
-4. **Run the Streamlit app**:
+5. **Run the Streamlit app**:
     streamlit run app.py
 
 
@@ -69,12 +69,12 @@ This project is an interactive dashboard for visualizing breast cancer classific
 
 ## Dashboard
 
-You can access the live dashboard at the following URL: (<[App](https://cancer-classification-dashboard.streamlit.app/)>)
+You can access the live dashboard at the following URL: [Cancer Cell Classification](https://cancer-classification-dashboard.streamlit.app/)
 
 
 ## Contibutors
 
-Erebus <https://github.com/Erebuzzz>
+[Erebus]<https://github.com/Erebuzzz>
 
 
 ## Acknowledgements
