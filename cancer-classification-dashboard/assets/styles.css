@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+.sidebar .sidebar-content {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.sidebar .sidebar-content a {
+    color: #ecf0f1;
+}
+
+.sidebar .sidebar-content a:hover {
+    color: #3498db;
+}
+
+.stButton > button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.stButton > button:hover {
+    background-color: #2980b9;
+}
+
+.stTextInput, .stSelectbox, .stSlider {
+    margin-bottom: 20px;
+}
+
+.stPlotlyChart {
+    margin: 20px 0;
+}
+
+footer {
+    font-size: 12px;
+    color: #7f8c8d;
+}
+
+.stApp {
+    background-color: #f8f9fa;
+}
+
+.stSidebar {
+    background-color: #f1f8ff;
+}
+
+/* Custom styling for metrics */
+[data-testid="stMetricValue"] {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0068c9;
+}
+
+/* Make the tabs more prominent */
+button[role="tab"] {
+    background-color: #f1f8ff;
+    border-radius: 4px 4px 0 0;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+button[role="tab"][aria-selected="true"] {
+    background-color: #0068c9;
+    color: white;
+}
+
+/* Progress bar styling */
+.stProgress > div > div {
+    background-color: #4CAF50;
+}
+
+/* Prediction result styling */
+.malignant {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.benign {
+    color: #2ecc71;
+    font-weight: bold;
+}
