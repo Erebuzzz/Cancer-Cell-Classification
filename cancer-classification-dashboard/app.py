@@ -69,8 +69,8 @@ if page == "Introduction":
     Use the sidebar on the left to navigate between different sections of the dashboard.
     """)
     
-    st.image("https://www.theguardian.com/society/2022/oct/29/tiny-endo-microscope-could-spot-breast-cancer-cells-forming#img-1", 
-             caption="Metastasized breast cancer cells under microscope. A tiny endo-microscope being developed at Imperial College London is hoped to help surgeons identify cancerous cells much more quickly. Credit: Cultura Creative Ltd/Alamy")
+    """st.image("https://www.theguardian.com/society/2022/oct/29/tiny-endo-microscope-could-spot-breast-cancer-cells-forming#img-1", 
+             caption="Metastasized breast cancer cells under microscope. A tiny endo-microscope being developed at Imperial College London is hoped to help surgeons identify cancerous cells much more quickly. Credit: Cultura Creative Ltd/Alamy")"""
 
 elif page == "Data Explorer":
     st.title("Data Explorer")
