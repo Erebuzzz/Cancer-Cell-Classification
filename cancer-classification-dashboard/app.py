@@ -44,19 +44,6 @@ st.sidebar.info(
 st.sidebar.markdown("---")
 st.sidebar.markdown("Created with ❤️ using Streamlit")
 
-# Load data - shared across all pages
-@st.cache_data
-def get_data():
-    data = load_breast_cancer()
-    df = pd.DataFrame(data.data, columns=data.feature_names)
-    df['diagnosis'] = data.target
-    df_viz = df.copy()
-    df_viz['diagnosis_label'] = df_viz['diagnosis'].map({0: 'Malignant', 1: 'Benign'})
-    return data, df, df_viz
-
-# Load data
-data, df, df_viz = get_data()
-
 # Display the selected page
 if page == "Introduction":
     st.title("Breast Cancer Classification Dashboard")
