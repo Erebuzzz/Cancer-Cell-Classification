@@ -69,7 +69,7 @@ if page == "Introduction":
     Use the sidebar on the left to navigate between different sections of the dashboard.
     """)
     
-    st.image("https://www.cancer.gov/sites/g/files/xnrzdm211/files/styles/cgov_article/public/cgov_image/media_image/2019-11/Breast%20Cancer%20Cells%2C%20credit%20NCI%20Visuals%20Online.jpg?h=4f45205e&itok=l_gINRW1", 
+    st.image("https://upload.wikimedia.org/wikipedia/commons/6/68/Breast_cancer_cells.jpg", 
              caption="Breast cancer cells under microscope. Credit: National Cancer Institute")
 
 elif page == "Data Explorer":
